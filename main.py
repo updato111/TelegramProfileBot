@@ -14,7 +14,7 @@ from telethon.sessions import StringSession
 #    print(client.session.save())
 
 
-string = ''
+string = 'BAF39SsAh1NI60jY7oJqaHK7bnSB9n_UyWUifw7qvRaf_tbPqVVL64geaNOYfmnNz_nUxo1c9OOgsy9Sl11kAdydt2uUkyUNxLdlMlc9xioi7i9YObgoX-b8OxugDpzJaydZ9MGdB-qf7qk5gHddpIZc4vLeLS0NplPR2U65fIzyhCm9oHJvi75fH7AClwIVLaZr7TLQ_kk071HULWQEC0KHHkiodSoD_0DmadE0jR8aPMqgvtRmB-CJLEuc5EX9aqb7q-QnkaPsF0IhPVSKPz7j4uYgdJAxD3pAitx6n4_qAv-ho4DLwnmLkTzh119O4FYzcrTRQAduCaP6Jd8NyNXs2H_d3QAAAAFTuY5kAA'
 client = TelegramClient(StringSession(string), config.api_id, config.api_hash)
 client.start()
 
